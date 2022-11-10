@@ -9,11 +9,14 @@
     <Import_RootNamespace>IngameScript</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Mockups\Base\MockShipTool.debug.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mockups\Base\MockInventory.debug.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mockups\Base\MockTextSurface.debug.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mockups\Base\MockTextSurface.consts.debug.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mockups\Blocks\MockShipWelder.debug.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mockups\Blocks\MockMotorRotor.debug.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mockups\Blocks\MockMotorStator.debug.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mockups\MockBlockGroup.debug.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mockups\MockTerminalProperty.debug.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mockups\Asserts\AssertionException.debug.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mockups\Asserts\Assert.debug.cs" />

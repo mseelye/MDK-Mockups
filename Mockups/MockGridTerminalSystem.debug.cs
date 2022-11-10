@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using Sandbox.ModAPI.Ingame;
+using VRage.Game.ModAPI.Ingame;
 
 namespace IngameScript.Mockups
 {
@@ -96,6 +97,16 @@ namespace IngameScript.Mockups
         IEnumerator IEnumerable.GetEnumerator()
         {
             return GetEnumerator();
+        }
+
+        public bool CanAccess(IMyTerminalBlock block, MyTerminalAccessScope scope = MyTerminalAccessScope.All)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool CanAccess(IMyCubeGrid grid, MyTerminalAccessScope scope = MyTerminalAccessScope.All)
+        {
+            throw new NotImplementedException();
         }
     }
 }
